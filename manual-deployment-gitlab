@@ -6,6 +6,6 @@ kubectl get pods
 
 kubectl logs -f kubernetes-gitlab-xxxx-xxxx
 
-kubectl expose deployment kubernetes-data-science --port=8888 --name=kubernetes-gitlab-http
+kubectl expose deployment kubernetes-data-science --port=80 --name=kubernetes-gitlab-http
 
-kubectl port-forward kubernetes-data-science-xxxx-xxxx 8888:8888
+kubectl port-forward kubernetes-data-science-xxxx-xxxx 80:80
