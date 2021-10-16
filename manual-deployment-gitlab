@@ -12,3 +12,16 @@ kubectl port-forward kubernetes-data-gitlab-xxxx-xxxx 80:80
 
 #Login to configure logins, passwords...
 kubectl exec --stdin --tty kubernetes-gitlab-xxxx-xxxx -- /bin/bash
+
+gitlab-rails console 
+
+# find root user
+user = User.where(id: 1).first
+
+# modify your password
+user.password = 'secret_pass'
+user.password_confirmation = 'secret_pass'
+
+# save your password
+user.save!
+
