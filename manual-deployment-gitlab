@@ -8,4 +8,7 @@ kubectl logs -f kubernetes-gitlab-xxxx-xxxx
 
 kubectl expose deployment kubernetes-gitlab --port=80 --name=kubernetes-gitlab-http
 
-kubectl port-forward kubernetes-data-science-xxxx-xxxx 80:80
+kubectl port-forward kubernetes-data-gitlab-xxxx-xxxx 80:80
+
+#Login to configure logins, passwords...
+kubectl exec --stdin --tty kubernetes-data-gitlab-xxxx-xxxx -- /bin/bash
