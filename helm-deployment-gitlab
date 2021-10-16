@@ -1,0 +1,9 @@
+#kubectl context to connect to the cluster has permissions needed to create RBAC resources.
+
+helm repo add gitlab https://charts.gitlab.io/
+helm install gitlab gitlab/gitlab \
+  --set global.hosts.domain=DOMAIN \
+  --set certmanager-issuer.email=me@example.com
+  
+kubectl get ingress -lrelease=gitlab
+kubectl get secret gitlab-gitlab-initial-root-password -ojsonpath='{.data.password}' | base64 --decode ; echo
