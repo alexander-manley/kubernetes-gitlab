@@ -5,7 +5,8 @@
 GitLab: An opensource web-based DevOps lifecycle tool developed by GitLab Inc.
   * Git repository manager
   * Artifact host: Docker images, Helm charts, PyPi packages, Maven etc...
-  * Provides documentation hosting, issue-tracking and continuous integration and deployment pipelines
+  * Provides documentation hosting, agile Jira like issue-tracking, and security scanning 
+  * Manages continuous integration and deployment (CI/CD) pipelines
 
 
 #
