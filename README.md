@@ -1,4 +1,4 @@
-# kubernetes-gitlab: Gitlab CI/CD deployed to Kubernetes
+# Gitlab CI/CD deployed to Kubernetes
 
 
 
