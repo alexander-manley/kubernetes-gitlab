@@ -8,7 +8,7 @@ An opensource web-based DevOps lifecycle tool developed by GitLab Inc.
   * Provides documentation hosting, agile Jira like issue-tracking, and security scanning 
   * Manages continuous integration and deployment (CI/CD) pipelines
 
-#
+# Startup can take up to 10 minutes:
 [![Launch Gitlab Now](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/alexander-manley/kubernetes-gitlab-launcher)
 #
 
