@@ -1,6 +1,8 @@
 PyPI repository about 10TB
 https://pypi.org/stats/
 
-Mirror:
+Mirror generation:
 https://github.com/pypa/bandersnatch
 
+Mirror integration:
+https://medium.com/maisonsdumonde/gitlab-ci-cd-and-gitlab-pypi-repository-4916a51d22eb
